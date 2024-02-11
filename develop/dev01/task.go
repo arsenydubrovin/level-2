@@ -13,5 +13,4 @@ package main
 */
 
 func main() {
-
 }
