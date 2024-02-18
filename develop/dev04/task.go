@@ -1,5 +1,12 @@
 package main
 
+import (
+	"fmt"
+	"os"
+
+	"dev04/cmd"
+)
+
 /*
 === Поиск анаграмм по словарю ===
 
@@ -20,5 +27,19 @@ package main
 */
 
 func main() {
+	file, err := os.Open("russian")
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "error: %s\n", err.Error())
+		os.Exit(1)
+	}
 
+	dict, err := cmd.LoadDictionary(file)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "error: %s\n", err.Error())
+		os.Exit(1)
+	}
+	file.Close()
+
+	words := []string{"пятак", "листок", "толстой"}
+	fmt.Println(cmd.GetAnagrams(words, dict))
 }
