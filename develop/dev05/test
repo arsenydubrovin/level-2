@@ -1,0 +1,13 @@
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver      153   8.9  1.0  8069776  81152   ??  Ss   29Jan24 1267:53.27 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer
+user           20663   2.6  0.0  4297880   3104 s029  S     8:31AM   0:00.29 -zsh
+user           20661   1.9  0.4  5419712  35476   ??  S     8:31AM   0:00.61 /Applications/Alacritty.app/Contents/MacOS/alacritty
+user           38606   1.3  0.4  4562840  30952   ??  S     6Feb24  99:22.43 /Applications/Sublime Text.app/Contents/MacOS/plugin_host-3.3 38601 /Applica
+root               143   0.3  0.0  4330472   1824   ??  Ss   29Jan24   4:15.65 /usr/sbin/notifyd
+root                85   1.1  0.0  4340608   3352   ??  Ss   29Jan24  27:24.14 /Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_obser
+user             347   0.9  0.1  5060760   5164   ??  S    29Jan24  34:25.98 /System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resou
+root                87   0.7  0.1  4383996   5348   ??  Ss   29Jan24  58:12.75 /Library/Application Support/org.pqrs/Karabiner-Elements/bin/karabiner_grabb
+user           38601   0.5  1.7  8580776 144004   ??  S     6Feb24 144:23.84 /Applications/Sublime Text.app/Contents/MacOS/sublime_text
+user             509   0.4  0.5  5452836  39388   ??  S    29Jan24  11:10.21 /Applications/Alfred 5.app/Contents/MacOS/Alfred
+root                 1   0.2  0.1  4342332  12348   ??  Ss   29Jan24  30:48.96 /sbin/launchd
+user                 1   0.2  0.1  4342332  12348   ??  Ss   29Jan24  30:48.96 /sbin/launchd
